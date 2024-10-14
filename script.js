@@ -1,4 +1,4 @@
-var kelime = "a"
+var kelime = "deneme kelimesi"
 var kelimeDizisi = kelime.split("");
 var kelimeKutusu = document.getElementById("kelimeKutusu");
 let a = 0;
