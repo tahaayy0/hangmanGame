@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+  
+}
+@font-face {
+    font-family: 'sans';
+    src: url(font/Parekraf-Demo-Regular.ttf);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(175, 145, 145);
+    font-family: 'sans';
+    background-image: url(resimler/10152964.jpg);
+    
+    background-size: cover;
+}
+.container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sol{
+    width: 400px;
+    height: 600px;
+    border: 2px black inset;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+.sag{
+    width: 400px;
+    height: 600px;
+    
+}
+.kelime{
+    width: 400px;
+    height: 250px;
+    border: 2px black inset;
+    border-radius: 20px;
+    justify-content: center;
+}
+.klavye{
+    width: 400px;
+    height: 294px;
+    border: 2px black inset;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+.klavyeTuslari{
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   border-radius: 50%;
+   border:none;
+   cursor: pointer;
+   background-color: rgb(164, 245, 245);
+   color: black;
+   margin-bottom: 10px;
+   margin-left: 11px;
+   font-weight: bolder;
+   margin-top: 10px;
+}
+.cizgi{
+   display: inline-block;
+   color: black;
+   width: 50px;
+   text-align: center;  
+   height: 50px;
+   font-size: 60px;
+}
+.isim{
+    color: black;
+    font-family:'sans';
+    margin-left: 20px;
+    margin-top: 60px;
+}
+button:disabled{
+    background-color: rgb(247, 107, 107);
+}
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kayipKazanmaEkrani{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.winOrLose{
+    text-align: center;
+    margin-top: 60px;
+}
+.winorlose{
+    text-align: center;
+    margin-top: 60px;
+}
+.yenidenDene{
+    border: none;
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'sans';
+
+}
+.yenidenDene:hover{
+    background-color:rgb(28, 233, 28)  ;
+    transition: 0.5s;
+}
+
+.deneme{
+    background-color: red;
+}
